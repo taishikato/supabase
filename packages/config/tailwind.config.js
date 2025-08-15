@@ -112,6 +112,7 @@ const uiConfig = ui({
     extend: {
       colors: {
         ...kebabToNested(colorExtend),
+        ring: `hsl(var(--ring) / <alpha-value>)`,
         sidebar: {
           DEFAULT: 'hsl(var(--sidebar-background))',
           foreground: 'hsl(var(--sidebar-foreground))',
